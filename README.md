@@ -10,6 +10,37 @@
 - [Application Structure](#application-structure)
 - [Other Resources](#other-resources)
 
+## Deploy in minutes with Firebase and Gitpod
+
+Prerequisites:
+
+- Running pega node with DX enabled application
+- Google account
+- A ready to go Firebase project with Hosting enabled -> https://console.firebase.google.com/
+
+Get started by starting a Gitpod environment here -> https://gitpod.io/#https://github.com/jeroengeerdink/PegaDXAngularStarterPack
+You may be asked to identify yourself if a first time gitpod user.
+
+After setup (can take a few mins the first time) you will be asked to login to your google account and _copy the token back into the commandline_ (make sure to allow the copy action in your browser).
+
+Make sure you update the URLs in `src/_services/endpoints.js`
+
+### Testing
+
+- `npm run build` to compile the code for deployment
+- Run `serve -s build` for a dev server. Use the link in the command line to opem and
+
+### Firebase setup
+
+Use `firebase init` to enable hosting and select the project you want to use.
+
+### Deploying
+
+Run the following
+
+- `npm run build` to compile the code for deployment
+- `firebase deploy` to deploy the app
+
 ## Basic Information
 
 The Pega React Starter Pack provides sample code which illustrates leveraging Version 1 of the [Pega Digital Experience (DX) APIs] (https://community.pega.com/digital-experience-api) to build a custom React front-end experience for Pega applications from which users can view, create, and update Pega cases and assignments.
