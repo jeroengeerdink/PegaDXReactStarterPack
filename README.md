@@ -18,7 +18,7 @@ Prerequisites:
 - Google account
 - A ready to go Firebase project with Hosting enabled -> https://console.firebase.google.com/
 
-Get started by starting a Gitpod environment here -> https://gitpod.io/#https://github.com/jeroengeerdink/PegaDXAngularStarterPack
+Get started by starting a Gitpod environment here -> https://gitpod.io/#https://github.com/jeroengeerdink/PegaDXReactStarterPack
 You may be asked to identify yourself if a first time gitpod user.
 
 After setup (can take a few mins the first time) you will be asked to login to your google account and _copy the token back into the commandline_ (make sure to allow the copy action in your browser).
